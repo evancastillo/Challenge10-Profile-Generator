@@ -1,0 +1,23 @@
+{
+  "name": "challenge10",
+  "version": "1.0.0",
+  "description": "team profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/evancastillo/Challenge10-Profile-Generator"
+  },
+  "keywords": [
+    "profile",
+    "generator"
+  ],
+  "author": "Evan Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.0",
+    "jest": "^27.0.3"
+  }
+}

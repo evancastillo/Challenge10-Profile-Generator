@@ -1,0 +1,77 @@
+body {
+    font-family: 'Amiri', serif, 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  a:link, a:visited {
+    color: #647aca;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: #f68555;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .card {
+    background-color: #efefef;
+    height: 300px;
+    width: 18rem;
+  }
+  
+  .card-body {
+    color: black;
+    background-color: #f68555;
+  }
+  
+  .details {
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    font-size: 90%;
+    margin: 5px 5px;
+  }
+  
+  .details div {
+    display: flex;
+    padding: .4rem .2rem;
+  }
+  
+  .details>div {
+    border-top: 1px solid #efefef;
+  }
+  
+  .detail-icon {
+    width: 32px;
+  }
+  
+  i {
+    margin: 0 auto;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .list-group {
+    margin: 20px 10px;
+    border: 1px solid #cfcfcf;
+  }
+  
+  .list-group-item {
+    padding: .75rem;
+  }
+  
+  .list-group-item i {
+    margin-right: .5rem;
+  }
+  
+  .role-icon {
+    float: right;
+  }
